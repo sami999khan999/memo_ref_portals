@@ -1,5 +1,6 @@
 import React from "react";
-import RefFunctionalComp from "./components/RefFunctionalComp";
+import Portals from "./components/Portals";
+// import RefFunctionalComp from "./components/RefFunctionalComp";
 // import RefClassComp from "./components/RefClassComp";
 // import ParentComp from "./components/ParentComp";
 
@@ -8,7 +9,8 @@ const App = () => {
     <div>
       {/* <ParentComp /> */}
       {/* <RefClassComp /> */}
-      <RefFunctionalComp pirate="Zoro" />
+      {/* <RefFunctionalComp pirate="Zoro" /> */}
+      <Portals />
     </div>
   );
 };
